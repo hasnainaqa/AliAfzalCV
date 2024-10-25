@@ -3,9 +3,17 @@ import { Card, CardContent } from "@/components/ui/card"
 import { Separator } from "@/components/ui/separator"
 import { Badge } from "@/components/ui/badge"
 import { Mail, Phone, GraduationCap, Briefcase, Award, Languages } from "lucide-react"
+import Head from 'next/head'
 
 export default function Component() {
   return (
+    <div>
+      <Head>
+        <meta name="description" content="Ali Afzal, MBBS General Physician with experience in multiple medical specialties, including Gastroenterology, Medicine, Surgery, and Orthopedics." />
+        <meta name="author" content="Ali Afzal" />
+        <meta property="og:title" content="Ali Afzal - MBBS General Physician" />
+        <meta property="og:description" content="Dedicated MBBS graduate seeking a position in a healthcare institution to apply medical expertise." />
+      </Head>
     <div className="min-h-screen bg-gradient-to-br from-green-50 to-emerald-100 p-4 flex items-center justify-center">
       <Card className="w-[210mm] h-[297mm] mx-auto bg-white shadow-xl overflow-hidden">
         <CardContent className="p-6 h-full flex flex-col">
@@ -13,7 +21,7 @@ export default function Component() {
             <aside className="w-1/3 space-y-6">
               <div className="flex flex-col items-center space-y-4">
                 <Avatar className="w-32 h-32 border-4 border-green-100 shadow-lg">
-                  <AvatarImage src="https://drive.google.com/file/d/1sSE923yRR2_wQdkwbfICmMsj_m3XTjvV/view?usp=drivesdk" alt="Ali Afzal" />
+                  <AvatarImage src="profile.jpeg" alt="Ali Afzal" />
                   <AvatarFallback>AA</AvatarFallback>
                 </Avatar>
               </div>
@@ -173,6 +181,7 @@ export default function Component() {
           </div>
         </CardContent>
       </Card>
+    </div>
     </div>
   )
 }
