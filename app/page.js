@@ -85,11 +85,11 @@ export default function Component() {
         </div>
       </nav>
 
-      <main className="container mx-auto px-4 sm:px-6 lg:px-8 py-8">
+      <main className="container mx-auto px-4 sm:px-6 lg:px-8 py-8 lg:py-12">
         <Card className="bg-white shadow-xl overflow-hidden">
           <CardContent className="p-6">
             <div className="flex flex-col lg:flex-row gap-6">
-              <aside className="w-full lg:w-1/4 space-y-8">
+              <aside className="w-full lg:w-1/4 space-y-8 order-last lg:order-first">
                 <section id="about">
                   <h2 className="text-lg font-semibold text-green-900 mb-2">About Me</h2>
                   <p className="text-sm text-gray-600 leading-relaxed">
@@ -120,7 +120,7 @@ export default function Component() {
                   </div>
                 </section>
               </aside>
-              <div className="w-full lg:w-3/4 space-y-8">
+              <div className="w-full lg:w-3/4 space-y-8 order-first lg:order-last">
                 <header className="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-6">
                   <div className="mb-4 sm:mb-0">
                     <h1 className="text-3xl font-bold text-green-900">Ali Afzal</h1>
