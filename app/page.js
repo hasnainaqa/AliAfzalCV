@@ -124,7 +124,7 @@ export default function Component() {
                 <header className="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-6">
                   <div className="mb-4 sm:mb-0">
                     <h1 className="text-3xl font-bold text-green-900">Ali Afzal</h1>
-                    <p className="text-lg text-green-700">MBBS | General Physician</p>
+                    <p className="text-lg text-green-700">MBBS | General Physician | RMP </p>
                   </div>
                   <div className="text-right">
                     <p className="text-sm text-gray-600 flex items-center justify-end gap-2">
