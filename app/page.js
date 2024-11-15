@@ -41,7 +41,7 @@ export default function Component() {
               </Avatar>
               <div className="ml-3">
                 <h1 className="text-lg sm:text-xl font-bold text-green-900">Ali Afzal</h1>
-                <p className="text-sm text-green-700">MBBS | General Physician</p>
+                <p className="text-sm text-green-700">MBBS | General Physician | RMP </p>
               </div>
             </div>
             <div className="hidden md:block">
@@ -115,7 +115,7 @@ export default function Component() {
                     <Badge variant="secondary" className="bg-green-100 text-green-800">Basic life Support</Badge>
                     <Badge variant="secondary" className="bg-green-100 text-green-800">Medical procedures</Badge>
                     <Badge variant="secondary" className="bg-green-100 text-green-800">Clinical Diagnosis and Patient Management</Badge>
-                    <Badge variant="secondary" className="bg-green-100 text-green-800">Critical Thinking and Decision Making</Badge>
+                    <Badge variant="secondary" className="bg-green-100 text-green-800">DM and Hypertension Management</Badge>
                     <Badge variant="secondary" className="bg-green-100 text-green-800">Patient Care and Communication</Badge>
                   </div>
                 </section>
