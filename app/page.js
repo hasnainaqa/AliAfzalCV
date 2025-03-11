@@ -123,7 +123,7 @@ export default function Component() {
               <div className="w-full lg:w-3/4 space-y-8 order-first lg:order-last">
                 <header className="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-6">
                   <div className="mb-4 sm:mb-0">
-                    <h1 className="text-3xl font-bold text-green-900">Ali Afzal</h1>
+                    <h1 className="text-3xl font-bold text-green-900">Dr. Ali Afzal</h1>
                     <p className="text-lg text-green-700">MBBS | General Physician | RMP </p>
                   </div>
                   <div className="text-right">
