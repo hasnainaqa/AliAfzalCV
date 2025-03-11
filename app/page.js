@@ -40,7 +40,7 @@ export default function Component() {
                 <AvatarFallback>AA</AvatarFallback>
               </Avatar>
               <div className="ml-3">
-                <h1 className="text-lg sm:text-xl font-bold text-green-900">Ali Afzal</h1>
+                <h1 className="text-lg sm:text-xl font-bold text-green-900">Dr. Ali Afzal</h1>
                 <p className="text-sm text-green-700">MBBS | General Physician | RMP </p>
               </div>
             </div>
