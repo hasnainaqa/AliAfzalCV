@@ -127,11 +127,11 @@ export default function Component() {
                     <p className="text-lg text-green-700">MBBS | General Physician | RMP </p>
                   </div>
                   <div className="text-right">
-                    <p className="text-sm text-gray-600 flex items-center justify-end gap-2">
+                    <p className="text-sm text-green-700 flex items-center justify-end gap-2">
                       <Phone className="w-4 h-4" />
                       +92 327 8746227
                     </p>
-                    <p className="text-sm text-gray-600 flex items-center justify-end gap-2">
+                    <p className="text-sm text-green-700 flex items-center justify-end gap-2">
                       <Mail className="w-4 h-4" />
                       aliswork273@gmail.com
                     </p>
